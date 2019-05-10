@@ -1,0 +1,802 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SamperateView20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 5</value>
+  </data>
+  <data name="panel66.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 5</value>
+  </data>
+  <data name="panel66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 30</value>
+  </data>
+  <data name="SamperateView10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 5</value>
+  </data>
+  <data name="panel65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 5</value>
+  </data>
+  <data name="panel65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 30</value>
+  </data>
+  <data name="SamperateView5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 5</value>
+  </data>
+  <data name="panel64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 5</value>
+  </data>
+  <data name="panel64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 30</value>
+  </data>
+  <data name="SamperateView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 5</value>
+  </data>
+  <data name="panel58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 30</value>
+  </data>
+  <data name="plSamplingFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 40</value>
+  </data>
+  <data name="groupControl6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 545</value>
+  </data>
+  <data name="groupControl6.Text" xml:space="preserve">
+    <value>Sampling Rate</value>
+  </data>
+  <data name="m_bHVSetup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 50</value>
+  </data>
+  <data name="m_bHVSetup.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="panel57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 28</value>
+  </data>
+  <data name="panel57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 78</value>
+  </data>
+  <data name="m_nVNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="panel62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 0</value>
+  </data>
+  <data name="panel62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 38</value>
+  </data>
+  <data name="labelControl19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 22</value>
+  </data>
+  <data name="labelControl19.Text" xml:space="preserve">
+    <value>Hor. Line</value>
+  </data>
+  <data name="panel63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 38</value>
+  </data>
+  <data name="panel61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 38</value>
+  </data>
+  <data name="panel61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 38</value>
+  </data>
+  <data name="m_nHNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="panel59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 0</value>
+  </data>
+  <data name="panel59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 38</value>
+  </data>
+  <data name="labelControl18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 22</value>
+  </data>
+  <data name="labelControl18.Text" xml:space="preserve">
+    <value>Ver. Line</value>
+  </data>
+  <data name="panel60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 38</value>
+  </data>
+  <data name="panel56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 38</value>
+  </data>
+  <data name="panel55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 78</value>
+  </data>
+  <data name="groupControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 108</value>
+  </data>
+  <data name="groupControl5.Text" xml:space="preserve">
+    <value>H/V Constant Line</value>
+  </data>
+  <data name="m_fAxisYMinor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="panel53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 0</value>
+  </data>
+  <data name="panel53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 38</value>
+  </data>
+  <data name="labelControl16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="labelControl16.Text" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="panel54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 38</value>
+  </data>
+  <data name="panel52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 66</value>
+  </data>
+  <data name="panel52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 38</value>
+  </data>
+  <data name="m_fAxisYMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="panel48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 0</value>
+  </data>
+  <data name="panel48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 38</value>
+  </data>
+  <data name="labelControl14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="labelControl14.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="panel49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 0</value>
+  </data>
+  <data name="panel49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 38</value>
+  </data>
+  <data name="m_fAxisYMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="panel50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 0</value>
+  </data>
+  <data name="panel50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 38</value>
+  </data>
+  <data name="labelControl15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="labelControl15.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="panel51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 38</value>
+  </data>
+  <data name="panel47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 38</value>
+  </data>
+  <data name="groupControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 108</value>
+  </data>
+  <data name="groupControl4.Text" xml:space="preserve">
+    <value>Temperature Y Axis</value>
+  </data>
+  <data name="m_fAxisXMinor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="panel46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 0</value>
+  </data>
+  <data name="panel46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 38</value>
+  </data>
+  <data name="labelControl13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="labelControl13.Text" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="panel45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 38</value>
+  </data>
+  <data name="panel40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 66</value>
+  </data>
+  <data name="panel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 38</value>
+  </data>
+  <data name="m_fAxisXMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="panel44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 0</value>
+  </data>
+  <data name="panel44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 38</value>
+  </data>
+  <data name="labelControl12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="labelControl12.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="panel43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 0</value>
+  </data>
+  <data name="panel43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 38</value>
+  </data>
+  <data name="m_fAxisXMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="panel42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 0</value>
+  </data>
+  <data name="panel42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 38</value>
+  </data>
+  <data name="labelControl11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="labelControl11.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="panel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 38</value>
+  </data>
+  <data name="panel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 38</value>
+  </data>
+  <data name="groupControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 108</value>
+  </data>
+  <data name="groupControl3.Text" xml:space="preserve">
+    <value>Time X Axis </value>
+  </data>
+  <data name="m_IsViewSlope.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 36</value>
+  </data>
+  <data name="m_IsViewSlope.Text" xml:space="preserve">
+    <value>Slope</value>
+  </data>
+  <data name="panel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 44</value>
+  </data>
+  <data name="m_IsViewReflower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 36</value>
+  </data>
+  <data name="m_IsViewReflower.Text" xml:space="preserve">
+    <value>Temperature Range</value>
+  </data>
+  <data name="panel37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 44</value>
+  </data>
+  <data name="m_IsViewGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 36</value>
+  </data>
+  <data name="m_IsViewGrid.Text" xml:space="preserve">
+    <value>Grid Lines</value>
+  </data>
+  <data name="panel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 44</value>
+  </data>
+  <data name="panel35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 0</value>
+  </data>
+  <data name="panel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 134</value>
+  </data>
+  <data name="m_IsViewNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 36</value>
+  </data>
+  <data name="m_IsViewNotes.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="panel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 44</value>
+  </data>
+  <data name="m_IsViewTinCream.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 36</value>
+  </data>
+  <data name="m_IsViewTinCream.Text" xml:space="preserve">
+    <value>Solder Reference</value>
+  </data>
+  <data name="panel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 44</value>
+  </data>
+  <data name="m_IsViewSimulation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 36</value>
+  </data>
+  <data name="m_IsViewSimulation.Text" xml:space="preserve">
+    <value>H/V Constant Line</value>
+  </data>
+  <data name="panel32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 44</value>
+  </data>
+  <data name="panel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 134</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel30.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 134</value>
+  </data>
+  <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 164</value>
+  </data>
+  <data name="groupControl2.Text" xml:space="preserve">
+    <value>Display Control</value>
+  </data>
+  <data name="xtraTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 1033</value>
+  </data>
+  <data name="xtraTabPage2.Text" xml:space="preserve">
+    <value>Chart Analysis</value>
+  </data>
+  <data name="xtraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 1062</value>
+  </data>
+  <data name="m_strHaiqiLongdu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="panel28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 324</value>
+  </data>
+  <data name="panel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 36</value>
+  </data>
+  <data name="m_strProductLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="panel27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 288</value>
+  </data>
+  <data name="panel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 36</value>
+  </data>
+  <data name="m_strTinCreamName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="panel26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 252</value>
+  </data>
+  <data name="panel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 36</value>
+  </data>
+  <data name="m_strOperate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="panel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 216</value>
+  </data>
+  <data name="panel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 36</value>
+  </data>
+  <data name="m_nSampleCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="panel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 180</value>
+  </data>
+  <data name="panel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 36</value>
+  </data>
+  <data name="m_nSampleRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="panel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 144</value>
+  </data>
+  <data name="panel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 36</value>
+  </data>
+  <data name="m_strDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="panel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 108</value>
+  </data>
+  <data name="panel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 36</value>
+  </data>
+  <data name="m_nDataLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="panel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 72</value>
+  </data>
+  <data name="panel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 36</value>
+  </data>
+  <data name="m_strCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="panel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 36</value>
+  </data>
+  <data name="panel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 36</value>
+  </data>
+  <data name="m_strProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="panel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 36</value>
+  </data>
+  <data name="panel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 28</value>
+  </data>
+  <data name="panel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 706</value>
+  </data>
+  <data name="labelControl10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="labelControl10.Text" xml:space="preserve">
+    <value>Oxygen Conc.：</value>
+  </data>
+  <data name="panel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 324</value>
+  </data>
+  <data name="panel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 36</value>
+  </data>
+  <data name="labelControl9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="labelControl9.Text" xml:space="preserve">
+    <value>Production Line：</value>
+  </data>
+  <data name="panel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 288</value>
+  </data>
+  <data name="panel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 36</value>
+  </data>
+  <data name="labelControl8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="labelControl8.Text" xml:space="preserve">
+    <value>Solder Name：</value>
+  </data>
+  <data name="panel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 252</value>
+  </data>
+  <data name="panel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 36</value>
+  </data>
+  <data name="labelControl7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="labelControl7.Text" xml:space="preserve">
+    <value>Tester：</value>
+  </data>
+  <data name="panel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 216</value>
+  </data>
+  <data name="panel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 36</value>
+  </data>
+  <data name="labelControl6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="labelControl6.Text" xml:space="preserve">
+    <value>Sample Channel：</value>
+  </data>
+  <data name="panel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 180</value>
+  </data>
+  <data name="panel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 36</value>
+  </data>
+  <data name="labelControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="labelControl5.Text" xml:space="preserve">
+    <value>Sampling Cycle：</value>
+  </data>
+  <data name="panel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 144</value>
+  </data>
+  <data name="panel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 36</value>
+  </data>
+  <data name="labelControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="labelControl4.Text" xml:space="preserve">
+    <value>Collection Time：</value>
+  </data>
+  <data name="panel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 108</value>
+  </data>
+  <data name="panel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 36</value>
+  </data>
+  <data name="labelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="labelControl3.Text" xml:space="preserve">
+    <value>Record Length：</value>
+  </data>
+  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 72</value>
+  </data>
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 36</value>
+  </data>
+  <data name="labelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>Cpmpany Name：</value>
+  </data>
+  <data name="panel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 36</value>
+  </data>
+  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 36</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>Product Name：</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 36</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 706</value>
+  </data>
+  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 736</value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>Test File Properties</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 297</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 736</value>
+  </data>
+  <data name="btnRefresh.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="btnAdvanced.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 245</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 52</value>
+  </data>
+  <data name="treeListColumn1.Caption" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v18.1" name="DevExpress.Utils.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="imageCollection1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxOC4xLCBWZXJzaW9uPTE4LjEu
+        NS4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFFT
+        eXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRv
+        a2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAChEZXZFeHByZXNzLlV0aWxzLkltYWdlQ29sbGVjdGlvblN0
+        cmVhbWVyAgAAAAlJbWFnZVNpemUERGF0YQQHE1N5c3RlbS5EcmF3aW5nLlNpemUDAAAAAgIAAAAF/P//
+        /xNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAwAAABAAAAAQAAAACQUAAAAP
+        BQAAALgKAAACTgIAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAAFzUkdCAK7OHOkA
+        AAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA68AAAOvAGVvHJJAAAB40lEQVQ4T2PAB8rT0xWgTPJAbnD4
+        +VBn76NQLung7I7W/29vtv2HckkDsfaeJv//L/////ui/7EObh+gwsSDsvio///fz/7//w0Q/1vyP9re
+        QwYqRRgEmDjY/347F6IZhF/P+n96e9v/1dMqP03It75Un+yxpijKrz/DP7ScITc8XLkwIjhmalX8hTM7
+        av7//zLz////K///fzULYQAYz/v/7673s/+XGP7/v8rw/+gChb/ZgYG5YBtjXXw+vH009R+qBiT8bvn/
+        fw+iX/0/B9R8luH/oz2Cv+Lco5aDNcNArLPvmc0Lyv7//zofSfOs//8+7vr7/7LMB5jm/zcZ/kc4xmIP
+        1PSQsLLJ1an//39eCNH8dtH7f6cYfv6/ANR4HoifMPx30sv6BlWOHSS7h6T/+7n2279b7u/+n4ZqhGGg
+        /wsi/O9AlWIHQU5xOf/uM/yFa7oGxCDnQ/mH5yjhT1ghtolz/z8GKgb6998zhr/1yZ7/N07S+v3vMdBQ
+        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
+</value>
+  </data>
+  <data name="m_DataList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 193</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 209</value>
+  </data>
+  <data name="editorButtonImageOptions1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAddEVYdFRpdGxlAENsb3NlO0V4aXQ7QmFycztSaWJib247RgO56AAAAwpJREFUOE+Nk2lIVFEY
+        hqdMcytR0yDa3NNMs9RJ0zLX1BiLUvGHJUYQCeqPxCVtXAIzqdwhBiQxKTGJIEfNUbKoGJ3EJU1H0zKX
+        dOZq2jgj9ePtfNehf0EXHnjvOed7znfvuVcwc7tIwK7NDAPGlv/AUA+t38QQGHwuFL/6eqsAX4qIfEwV
+        iTcoZBTcxCRPHibzGeI8fBbnYjQ3p5vVklBgSBPaD+0bKPTwuU1PK7S9hBRaeQvPaE4WWK0RCYyUN7Kh
+        7WnB0uNKDGanQ2LvgY7zF/h7QhYbC4mdBwYy08A9KgdXX4aPGddJYEyCrSOZGVh795wtSEVdRDxkUgWe
+        XM1B6xkR2kQxfJa19KIuPB79GSlQ191Df2o6CUxIYNx/LQWa7mZI9rphUjkL1ZIWyikOjakFPKMsz6s1
+        mBibhWSPG1S1pZBfvkICUxKYvD5zlrVawVqNQ0/JfWi0v6Fe0WHsK4exLxwWf+iwuvaLn5OxR5vOSkZ7
+        SCQJzEhgKguNwvf7WfiWmYSO6Gi8LynHwrIOC6yT78sMToe3xWV4GRmJqbQEKBNC8MI/mATmJDCTBoZh
+        tigVExdPo/W4H9rFd1jLWsyp1zCr0jC0aMsrgdRPiLELQfh0LhDPjgaQYBsJzJ/7BmE65wpafbzQnJ6P
+        oXEVZhY14FZ14FbWMb2gwYByEU/TxJB6eWA40geN7kISbCfBtiZPP761BnsXqOfVmFGtYWl1HQPlVTwb
+        kp9QzanRYOeCgWBP1DsfJYEFCbY3uPpgPFkERUwoOhOTsM5x6CsphSzgGDoYlGmsM/ES5BGB6PN3Re2+
+        QySwJIHFQzsvfIoLwXC0EL3RJ9HkcgBdAb4YiTmBYVEguvx9+DF52HH0n/KE4ogDHuxyJYEVL5DsPoih
+        KLaT0BmDwYfZiwrGx3BfKISOUHg7YijUGyOiALazG+Se+yF334tqG6e/ArO7tk5vanY6o8bWBdW2zqiy
+        IZw2sHZEpZUjKngcUGHpgHJGsYXdW1bLHyP9lvRBkM1az45/YKOHMjtCgcEfpxkalin7Ah0AAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="m_strFileNameFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 22</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 36</value>
+  </data>
+  <data name="xtraTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 1033</value>
+  </data>
+  <data name="xtraTabPage1.Text" xml:space="preserve">
+    <value>Data Management</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 1062</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>289, 1062</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Data Management</value>
+  </data>
+</root>

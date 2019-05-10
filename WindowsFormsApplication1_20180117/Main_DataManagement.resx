@@ -1,0 +1,4503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="xtraTabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xtraTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="xtraTabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SamperateView20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SamperateView20.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SamperateView20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 5</value>
+  </data>
+  <data name="SamperateView20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SamperateView20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="SamperateView20.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SamperateView20.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;SamperateView20.Name" xml:space="preserve">
+    <value>SamperateView20</value>
+  </data>
+  <data name="&gt;&gt;SamperateView20.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SamperateView20.Parent" xml:space="preserve">
+    <value>plSamplingFilter</value>
+  </data>
+  <data name="&gt;&gt;SamperateView20.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel66.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel66.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 5</value>
+  </data>
+  <data name="panel66.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>7, 30</value>
+  </data>
+  <data name="panel66.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;panel66.Name" xml:space="preserve">
+    <value>panel66</value>
+  </data>
+  <data name="&gt;&gt;panel66.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel66.Parent" xml:space="preserve">
+    <value>plSamplingFilter</value>
+  </data>
+  <data name="&gt;&gt;panel66.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SamperateView10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="SamperateView10.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SamperateView10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 5</value>
+  </data>
+  <data name="SamperateView10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SamperateView10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="SamperateView10.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SamperateView10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;SamperateView10.Name" xml:space="preserve">
+    <value>SamperateView10</value>
+  </data>
+  <data name="&gt;&gt;SamperateView10.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SamperateView10.Parent" xml:space="preserve">
+    <value>plSamplingFilter</value>
+  </data>
+  <data name="&gt;&gt;SamperateView10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel65.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 5</value>
+  </data>
+  <data name="panel65.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>7, 30</value>
+  </data>
+  <data name="panel65.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;panel65.Name" xml:space="preserve">
+    <value>panel65</value>
+  </data>
+  <data name="&gt;&gt;panel65.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel65.Parent" xml:space="preserve">
+    <value>plSamplingFilter</value>
+  </data>
+  <data name="&gt;&gt;panel65.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SamperateView5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="SamperateView5.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SamperateView5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 5</value>
+  </data>
+  <data name="SamperateView5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SamperateView5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="SamperateView5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SamperateView5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SamperateView5.Name" xml:space="preserve">
+    <value>SamperateView5</value>
+  </data>
+  <data name="&gt;&gt;SamperateView5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SamperateView5.Parent" xml:space="preserve">
+    <value>plSamplingFilter</value>
+  </data>
+  <data name="&gt;&gt;SamperateView5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel64.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 5</value>
+  </data>
+  <data name="panel64.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>7, 30</value>
+  </data>
+  <data name="panel64.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;panel64.Name" xml:space="preserve">
+    <value>panel64</value>
+  </data>
+  <data name="&gt;&gt;panel64.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel64.Parent" xml:space="preserve">
+    <value>plSamplingFilter</value>
+  </data>
+  <data name="&gt;&gt;panel64.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SamperateView2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="SamperateView2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SamperateView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 5</value>
+  </data>
+  <data name="SamperateView2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SamperateView2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="SamperateView2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SamperateView2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SamperateView2.Name" xml:space="preserve">
+    <value>SamperateView2</value>
+  </data>
+  <data name="&gt;&gt;SamperateView2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SamperateView2.Parent" xml:space="preserve">
+    <value>plSamplingFilter</value>
+  </data>
+  <data name="&gt;&gt;SamperateView2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panel58.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 5</value>
+  </data>
+  <data name="panel58.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>7, 30</value>
+  </data>
+  <data name="panel58.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panel58.Name" xml:space="preserve">
+    <value>panel58</value>
+  </data>
+  <data name="&gt;&gt;panel58.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel58.Parent" xml:space="preserve">
+    <value>plSamplingFilter</value>
+  </data>
+  <data name="&gt;&gt;panel58.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="SamperateView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="SamperateView1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SamperateView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 5</value>
+  </data>
+  <data name="SamperateView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SamperateView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="SamperateView1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="SamperateView1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SamperateView1.Name" xml:space="preserve">
+    <value>SamperateView1</value>
+  </data>
+  <data name="&gt;&gt;SamperateView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SamperateView1.Parent" xml:space="preserve">
+    <value>plSamplingFilter</value>
+  </data>
+  <data name="&gt;&gt;SamperateView1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="plSamplingFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="plSamplingFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 28</value>
+  </data>
+  <data name="plSamplingFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="plSamplingFilter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 0, 5</value>
+  </data>
+  <data name="plSamplingFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 40</value>
+  </data>
+  <data name="plSamplingFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;plSamplingFilter.Name" xml:space="preserve">
+    <value>plSamplingFilter</value>
+  </data>
+  <data name="&gt;&gt;plSamplingFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plSamplingFilter.Parent" xml:space="preserve">
+    <value>groupControl6</value>
+  </data>
+  <data name="&gt;&gt;plSamplingFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupControl6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupControl6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 488</value>
+  </data>
+  <data name="groupControl6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupControl6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 545</value>
+  </data>
+  <data name="groupControl6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupControl6.Text" xml:space="preserve">
+    <value>采样率过滤显示</value>
+  </data>
+  <data name="&gt;&gt;groupControl6.Name" xml:space="preserve">
+    <value>groupControl6</value>
+  </data>
+  <data name="&gt;&gt;groupControl6.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl6.Parent" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupControl6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_bHVSetup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_bHVSetup.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_bHVSetup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="m_bHVSetup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 50</value>
+  </data>
+  <data name="m_bHVSetup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_bHVSetup.Text" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="&gt;&gt;m_bHVSetup.Name" xml:space="preserve">
+    <value>m_bHVSetup</value>
+  </data>
+  <data name="&gt;&gt;m_bHVSetup.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_bHVSetup.Parent" xml:space="preserve">
+    <value>panel57</value>
+  </data>
+  <data name="&gt;&gt;m_bHVSetup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel57.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 28</value>
+  </data>
+  <data name="panel57.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel57.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="panel57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 78</value>
+  </data>
+  <data name="panel57.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel57.Name" xml:space="preserve">
+    <value>panel57</value>
+  </data>
+  <data name="&gt;&gt;panel57.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel57.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;panel57.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_nVNum.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_nVNum.EditValue" type="System.Decimal, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_nVNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="m_nVNum.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_nVNum.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v18.1" name="DevExpress.Utils.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="m_nVNum.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
+    <value>Combo</value>
+  </data>
+  <data name="m_nVNum.Properties.Mask.EditMask" xml:space="preserve">
+    <value>N00</value>
+  </data>
+  <data name="m_nVNum.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v18.1" name="DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="m_nVNum.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="m_nVNum.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nVNum.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nVNum.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_nVNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="m_nVNum.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_nVNum.Name" xml:space="preserve">
+    <value>m_nVNum</value>
+  </data>
+  <data name="&gt;&gt;m_nVNum.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_nVNum.Parent" xml:space="preserve">
+    <value>panel62</value>
+  </data>
+  <data name="&gt;&gt;m_nVNum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel62.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 0</value>
+  </data>
+  <data name="panel62.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel62.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 7, 8</value>
+  </data>
+  <data name="panel62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 39</value>
+  </data>
+  <data name="panel62.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel62.Name" xml:space="preserve">
+    <value>panel62</value>
+  </data>
+  <data name="&gt;&gt;panel62.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel62.Parent" xml:space="preserve">
+    <value>panel61</value>
+  </data>
+  <data name="&gt;&gt;panel62.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl19.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl19.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 8</value>
+  </data>
+  <data name="labelControl19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 23</value>
+  </data>
+  <data name="labelControl19.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelControl19.Text" xml:space="preserve">
+    <value>水平线</value>
+  </data>
+  <data name="&gt;&gt;labelControl19.Name" xml:space="preserve">
+    <value>labelControl19</value>
+  </data>
+  <data name="&gt;&gt;labelControl19.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl19.Parent" xml:space="preserve">
+    <value>panel63</value>
+  </data>
+  <data name="&gt;&gt;labelControl19.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel63.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel63.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel63.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="panel63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 39</value>
+  </data>
+  <data name="panel63.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel63.Name" xml:space="preserve">
+    <value>panel63</value>
+  </data>
+  <data name="&gt;&gt;panel63.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel63.Parent" xml:space="preserve">
+    <value>panel61</value>
+  </data>
+  <data name="&gt;&gt;panel63.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel61.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 39</value>
+  </data>
+  <data name="panel61.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 39</value>
+  </data>
+  <data name="panel61.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel61.Name" xml:space="preserve">
+    <value>panel61</value>
+  </data>
+  <data name="&gt;&gt;panel61.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel61.Parent" xml:space="preserve">
+    <value>panel55</value>
+  </data>
+  <data name="&gt;&gt;panel61.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_nHNum.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_nHNum.EditValue" type="System.Decimal, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_nHNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="m_nHNum.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_nHNum.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nHNum.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
+    <value>Combo</value>
+  </data>
+  <data name="m_nHNum.Properties.Mask.EditMask" xml:space="preserve">
+    <value>N00</value>
+  </data>
+  <data name="m_nHNum.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nHNum.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="m_nHNum.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nHNum.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nHNum.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_nHNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="m_nHNum.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_nHNum.Name" xml:space="preserve">
+    <value>m_nHNum</value>
+  </data>
+  <data name="&gt;&gt;m_nHNum.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_nHNum.Parent" xml:space="preserve">
+    <value>panel59</value>
+  </data>
+  <data name="&gt;&gt;m_nHNum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel59.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 0</value>
+  </data>
+  <data name="panel59.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel59.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 7, 8</value>
+  </data>
+  <data name="panel59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 39</value>
+  </data>
+  <data name="panel59.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel59.Name" xml:space="preserve">
+    <value>panel59</value>
+  </data>
+  <data name="&gt;&gt;panel59.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel59.Parent" xml:space="preserve">
+    <value>panel56</value>
+  </data>
+  <data name="&gt;&gt;panel59.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl18.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl18.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 8</value>
+  </data>
+  <data name="labelControl18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 23</value>
+  </data>
+  <data name="labelControl18.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelControl18.Text" xml:space="preserve">
+    <value>垂直线</value>
+  </data>
+  <data name="&gt;&gt;labelControl18.Name" xml:space="preserve">
+    <value>labelControl18</value>
+  </data>
+  <data name="&gt;&gt;labelControl18.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl18.Parent" xml:space="preserve">
+    <value>panel60</value>
+  </data>
+  <data name="&gt;&gt;labelControl18.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel60.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel60.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel60.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="panel60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 39</value>
+  </data>
+  <data name="panel60.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel60.Name" xml:space="preserve">
+    <value>panel60</value>
+  </data>
+  <data name="&gt;&gt;panel60.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel60.Parent" xml:space="preserve">
+    <value>panel56</value>
+  </data>
+  <data name="&gt;&gt;panel60.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel56.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel56.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 39</value>
+  </data>
+  <data name="panel56.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel56.Name" xml:space="preserve">
+    <value>panel56</value>
+  </data>
+  <data name="&gt;&gt;panel56.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel56.Parent" xml:space="preserve">
+    <value>panel55</value>
+  </data>
+  <data name="&gt;&gt;panel56.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel55.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 28</value>
+  </data>
+  <data name="panel55.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 78</value>
+  </data>
+  <data name="panel55.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel55.Name" xml:space="preserve">
+    <value>panel55</value>
+  </data>
+  <data name="&gt;&gt;panel55.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel55.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;panel55.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupControl5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="groupControl5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 380</value>
+  </data>
+  <data name="groupControl5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 108</value>
+  </data>
+  <data name="groupControl5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupControl5.Text" xml:space="preserve">
+    <value>水平垂直线</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.Name" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.Parent" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_fAxisYMinor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_fAxisYMinor.EditValue" type="System.Decimal, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="m_fAxisYMinor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="m_fAxisYMinor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_fAxisYMinor.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMinor.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
+    <value>Combo</value>
+  </data>
+  <data name="m_fAxisYMinor.Properties.Mask.EditMask" xml:space="preserve">
+    <value>N00</value>
+  </data>
+  <data name="m_fAxisYMinor.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMinor.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="m_fAxisYMinor.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMinor.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMinor.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_fAxisYMinor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="m_fAxisYMinor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMinor.Name" xml:space="preserve">
+    <value>m_fAxisYMinor</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMinor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMinor.Parent" xml:space="preserve">
+    <value>panel53</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMinor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel53.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 0</value>
+  </data>
+  <data name="panel53.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel53.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 7, 8</value>
+  </data>
+  <data name="panel53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 39</value>
+  </data>
+  <data name="panel53.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel53.Name" xml:space="preserve">
+    <value>panel53</value>
+  </data>
+  <data name="&gt;&gt;panel53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel53.Parent" xml:space="preserve">
+    <value>panel52</value>
+  </data>
+  <data name="&gt;&gt;panel53.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl16.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 8</value>
+  </data>
+  <data name="labelControl16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="labelControl16.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelControl16.Text" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="&gt;&gt;labelControl16.Name" xml:space="preserve">
+    <value>labelControl16</value>
+  </data>
+  <data name="&gt;&gt;labelControl16.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl16.Parent" xml:space="preserve">
+    <value>panel54</value>
+  </data>
+  <data name="&gt;&gt;labelControl16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel54.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel54.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel54.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="panel54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 39</value>
+  </data>
+  <data name="panel54.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel54.Name" xml:space="preserve">
+    <value>panel54</value>
+  </data>
+  <data name="&gt;&gt;panel54.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel54.Parent" xml:space="preserve">
+    <value>panel52</value>
+  </data>
+  <data name="&gt;&gt;panel54.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel52.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 67</value>
+  </data>
+  <data name="panel52.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 39</value>
+  </data>
+  <data name="panel52.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel52.Name" xml:space="preserve">
+    <value>panel52</value>
+  </data>
+  <data name="&gt;&gt;panel52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel52.Parent" xml:space="preserve">
+    <value>groupControl4</value>
+  </data>
+  <data name="&gt;&gt;panel52.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_fAxisYMax.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_fAxisYMax.EditValue" type="System.Decimal, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="m_fAxisYMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="m_fAxisYMax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_fAxisYMax.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMax.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
+    <value>Combo</value>
+  </data>
+  <data name="m_fAxisYMax.Properties.Mask.EditMask" xml:space="preserve">
+    <value>N00</value>
+  </data>
+  <data name="m_fAxisYMax.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMax.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="m_fAxisYMax.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMax.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMax.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_fAxisYMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="m_fAxisYMax.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMax.Name" xml:space="preserve">
+    <value>m_fAxisYMax</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMax.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMax.Parent" xml:space="preserve">
+    <value>panel48</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMax.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel48.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 0</value>
+  </data>
+  <data name="panel48.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel48.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 7, 8</value>
+  </data>
+  <data name="panel48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 39</value>
+  </data>
+  <data name="panel48.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel48.Name" xml:space="preserve">
+    <value>panel48</value>
+  </data>
+  <data name="&gt;&gt;panel48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel48.Parent" xml:space="preserve">
+    <value>panel47</value>
+  </data>
+  <data name="&gt;&gt;panel48.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl14.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 8</value>
+  </data>
+  <data name="labelControl14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="labelControl14.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelControl14.Text" xml:space="preserve">
+    <value>到</value>
+  </data>
+  <data name="&gt;&gt;labelControl14.Name" xml:space="preserve">
+    <value>labelControl14</value>
+  </data>
+  <data name="&gt;&gt;labelControl14.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl14.Parent" xml:space="preserve">
+    <value>panel49</value>
+  </data>
+  <data name="&gt;&gt;labelControl14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel49.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 0</value>
+  </data>
+  <data name="panel49.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel49.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="panel49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 39</value>
+  </data>
+  <data name="panel49.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel49.Name" xml:space="preserve">
+    <value>panel49</value>
+  </data>
+  <data name="&gt;&gt;panel49.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel49.Parent" xml:space="preserve">
+    <value>panel47</value>
+  </data>
+  <data name="&gt;&gt;panel49.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_fAxisYMin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_fAxisYMin.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_fAxisYMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="m_fAxisYMin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_fAxisYMin.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMin.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
+    <value>Combo</value>
+  </data>
+  <data name="m_fAxisYMin.Properties.Mask.EditMask" xml:space="preserve">
+    <value>N00</value>
+  </data>
+  <data name="m_fAxisYMin.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMin.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="m_fAxisYMin.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMin.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisYMin.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_fAxisYMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="m_fAxisYMin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMin.Name" xml:space="preserve">
+    <value>m_fAxisYMin</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMin.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMin.Parent" xml:space="preserve">
+    <value>panel50</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisYMin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel50.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 0</value>
+  </data>
+  <data name="panel50.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel50.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 7, 8</value>
+  </data>
+  <data name="panel50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 39</value>
+  </data>
+  <data name="panel50.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel50.Name" xml:space="preserve">
+    <value>panel50</value>
+  </data>
+  <data name="&gt;&gt;panel50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel50.Parent" xml:space="preserve">
+    <value>panel47</value>
+  </data>
+  <data name="&gt;&gt;panel50.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelControl15.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 8</value>
+  </data>
+  <data name="labelControl15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="labelControl15.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelControl15.Text" xml:space="preserve">
+    <value>从</value>
+  </data>
+  <data name="&gt;&gt;labelControl15.Name" xml:space="preserve">
+    <value>labelControl15</value>
+  </data>
+  <data name="&gt;&gt;labelControl15.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl15.Parent" xml:space="preserve">
+    <value>panel51</value>
+  </data>
+  <data name="&gt;&gt;labelControl15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel51.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel51.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel51.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="panel51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 39</value>
+  </data>
+  <data name="panel51.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel51.Name" xml:space="preserve">
+    <value>panel51</value>
+  </data>
+  <data name="&gt;&gt;panel51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel51.Parent" xml:space="preserve">
+    <value>panel47</value>
+  </data>
+  <data name="&gt;&gt;panel51.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel47.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 28</value>
+  </data>
+  <data name="panel47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 39</value>
+  </data>
+  <data name="panel47.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel47.Name" xml:space="preserve">
+    <value>panel47</value>
+  </data>
+  <data name="&gt;&gt;panel47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel47.Parent" xml:space="preserve">
+    <value>groupControl4</value>
+  </data>
+  <data name="&gt;&gt;panel47.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupControl4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="groupControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 272</value>
+  </data>
+  <data name="groupControl4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 108</value>
+  </data>
+  <data name="groupControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupControl4.Text" xml:space="preserve">
+    <value>温度Y轴</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Name" xml:space="preserve">
+    <value>groupControl4</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Parent" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_fAxisXMinor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_fAxisXMinor.EditValue" type="System.Decimal, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="m_fAxisXMinor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="m_fAxisXMinor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_fAxisXMinor.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMinor.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
+    <value>Combo</value>
+  </data>
+  <data name="m_fAxisXMinor.Properties.Mask.EditMask" xml:space="preserve">
+    <value>N00</value>
+  </data>
+  <data name="m_fAxisXMinor.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMinor.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="m_fAxisXMinor.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMinor.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMinor.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_fAxisXMinor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="m_fAxisXMinor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMinor.Name" xml:space="preserve">
+    <value>m_fAxisXMinor</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMinor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMinor.Parent" xml:space="preserve">
+    <value>panel46</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMinor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel46.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 0</value>
+  </data>
+  <data name="panel46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel46.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 7, 8</value>
+  </data>
+  <data name="panel46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 39</value>
+  </data>
+  <data name="panel46.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel46.Name" xml:space="preserve">
+    <value>panel46</value>
+  </data>
+  <data name="&gt;&gt;panel46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel46.Parent" xml:space="preserve">
+    <value>panel40</value>
+  </data>
+  <data name="&gt;&gt;panel46.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl13.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 8</value>
+  </data>
+  <data name="labelControl13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="labelControl13.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelControl13.Text" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="&gt;&gt;labelControl13.Name" xml:space="preserve">
+    <value>labelControl13</value>
+  </data>
+  <data name="&gt;&gt;labelControl13.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl13.Parent" xml:space="preserve">
+    <value>panel45</value>
+  </data>
+  <data name="&gt;&gt;labelControl13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel45.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel45.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel45.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="panel45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 39</value>
+  </data>
+  <data name="panel45.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel45.Name" xml:space="preserve">
+    <value>panel45</value>
+  </data>
+  <data name="&gt;&gt;panel45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel45.Parent" xml:space="preserve">
+    <value>panel40</value>
+  </data>
+  <data name="&gt;&gt;panel45.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel40.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 67</value>
+  </data>
+  <data name="panel40.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 39</value>
+  </data>
+  <data name="panel40.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel40.Name" xml:space="preserve">
+    <value>panel40</value>
+  </data>
+  <data name="&gt;&gt;panel40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel40.Parent" xml:space="preserve">
+    <value>groupControl3</value>
+  </data>
+  <data name="&gt;&gt;panel40.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_fAxisXMax.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_fAxisXMax.EditValue" type="System.Decimal, mscorlib">
+    <value>600</value>
+  </data>
+  <data name="m_fAxisXMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="m_fAxisXMax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_fAxisXMax.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMax.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
+    <value>Combo</value>
+  </data>
+  <data name="m_fAxisXMax.Properties.Mask.EditMask" xml:space="preserve">
+    <value>N00</value>
+  </data>
+  <data name="m_fAxisXMax.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMax.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="m_fAxisXMax.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMax.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMax.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_fAxisXMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="m_fAxisXMax.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMax.Name" xml:space="preserve">
+    <value>m_fAxisXMax</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMax.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMax.Parent" xml:space="preserve">
+    <value>panel44</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMax.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel44.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 0</value>
+  </data>
+  <data name="panel44.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel44.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 7, 8</value>
+  </data>
+  <data name="panel44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 39</value>
+  </data>
+  <data name="panel44.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel44.Name" xml:space="preserve">
+    <value>panel44</value>
+  </data>
+  <data name="&gt;&gt;panel44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel44.Parent" xml:space="preserve">
+    <value>panel39</value>
+  </data>
+  <data name="&gt;&gt;panel44.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl12.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 8</value>
+  </data>
+  <data name="labelControl12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="labelControl12.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelControl12.Text" xml:space="preserve">
+    <value>到</value>
+  </data>
+  <data name="&gt;&gt;labelControl12.Name" xml:space="preserve">
+    <value>labelControl12</value>
+  </data>
+  <data name="&gt;&gt;labelControl12.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl12.Parent" xml:space="preserve">
+    <value>panel43</value>
+  </data>
+  <data name="&gt;&gt;labelControl12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel43.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 0</value>
+  </data>
+  <data name="panel43.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel43.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="panel43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 39</value>
+  </data>
+  <data name="panel43.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel43.Name" xml:space="preserve">
+    <value>panel43</value>
+  </data>
+  <data name="&gt;&gt;panel43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel43.Parent" xml:space="preserve">
+    <value>panel39</value>
+  </data>
+  <data name="&gt;&gt;panel43.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_fAxisXMin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_fAxisXMin.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_fAxisXMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="m_fAxisXMin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_fAxisXMin.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMin.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
+    <value>Combo</value>
+  </data>
+  <data name="m_fAxisXMin.Properties.Mask.EditMask" xml:space="preserve">
+    <value>N00</value>
+  </data>
+  <data name="m_fAxisXMin.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMin.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="m_fAxisXMin.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMin.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_fAxisXMin.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_fAxisXMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="m_fAxisXMin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMin.Name" xml:space="preserve">
+    <value>m_fAxisXMin</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMin.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMin.Parent" xml:space="preserve">
+    <value>panel42</value>
+  </data>
+  <data name="&gt;&gt;m_fAxisXMin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel42.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 0</value>
+  </data>
+  <data name="panel42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel42.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 7, 8</value>
+  </data>
+  <data name="panel42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 39</value>
+  </data>
+  <data name="panel42.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel42.Name" xml:space="preserve">
+    <value>panel42</value>
+  </data>
+  <data name="&gt;&gt;panel42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel42.Parent" xml:space="preserve">
+    <value>panel39</value>
+  </data>
+  <data name="&gt;&gt;panel42.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelControl11.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 8</value>
+  </data>
+  <data name="labelControl11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="labelControl11.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelControl11.Text" xml:space="preserve">
+    <value>从</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.Name" xml:space="preserve">
+    <value>labelControl11</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.Parent" xml:space="preserve">
+    <value>panel41</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel41.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel41.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="panel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 39</value>
+  </data>
+  <data name="panel41.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel41.Name" xml:space="preserve">
+    <value>panel41</value>
+  </data>
+  <data name="&gt;&gt;panel41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel41.Parent" xml:space="preserve">
+    <value>panel39</value>
+  </data>
+  <data name="&gt;&gt;panel41.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel39.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 28</value>
+  </data>
+  <data name="panel39.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 39</value>
+  </data>
+  <data name="panel39.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel39.Name" xml:space="preserve">
+    <value>panel39</value>
+  </data>
+  <data name="&gt;&gt;panel39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel39.Parent" xml:space="preserve">
+    <value>groupControl3</value>
+  </data>
+  <data name="&gt;&gt;panel39.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="groupControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 164</value>
+  </data>
+  <data name="groupControl3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 108</value>
+  </data>
+  <data name="groupControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupControl3.Text" xml:space="preserve">
+    <value>时间X轴</value>
+  </data>
+  <data name="&gt;&gt;groupControl3.Name" xml:space="preserve">
+    <value>groupControl3</value>
+  </data>
+  <data name="&gt;&gt;groupControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl3.Parent" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupControl3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_IsViewSlope.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_IsViewSlope.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_IsViewSlope.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_IsViewSlope.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_IsViewSlope.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 36</value>
+  </data>
+  <data name="m_IsViewSlope.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_IsViewSlope.Text" xml:space="preserve">
+    <value>斜率</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewSlope.Name" xml:space="preserve">
+    <value>m_IsViewSlope</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewSlope.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewSlope.Parent" xml:space="preserve">
+    <value>panel36</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewSlope.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel36.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 96</value>
+  </data>
+  <data name="panel36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel36.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 7, 8</value>
+  </data>
+  <data name="panel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 44</value>
+  </data>
+  <data name="panel36.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel36.Name" xml:space="preserve">
+    <value>panel36</value>
+  </data>
+  <data name="&gt;&gt;panel36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel36.Parent" xml:space="preserve">
+    <value>panel35</value>
+  </data>
+  <data name="&gt;&gt;panel36.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_IsViewReflower.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_IsViewReflower.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_IsViewReflower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_IsViewReflower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_IsViewReflower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 36</value>
+  </data>
+  <data name="m_IsViewReflower.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_IsViewReflower.Text" xml:space="preserve">
+    <value>温区</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewReflower.Name" xml:space="preserve">
+    <value>m_IsViewReflower</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewReflower.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewReflower.Parent" xml:space="preserve">
+    <value>panel37</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewReflower.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel37.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="panel37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel37.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 7, 8</value>
+  </data>
+  <data name="panel37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 44</value>
+  </data>
+  <data name="panel37.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel37.Name" xml:space="preserve">
+    <value>panel37</value>
+  </data>
+  <data name="&gt;&gt;panel37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel37.Parent" xml:space="preserve">
+    <value>panel35</value>
+  </data>
+  <data name="&gt;&gt;panel37.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_IsViewGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_IsViewGrid.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_IsViewGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_IsViewGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_IsViewGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 36</value>
+  </data>
+  <data name="m_IsViewGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_IsViewGrid.Text" xml:space="preserve">
+    <value>网格</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewGrid.Name" xml:space="preserve">
+    <value>m_IsViewGrid</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewGrid.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewGrid.Parent" xml:space="preserve">
+    <value>panel38</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel38.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="panel38.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel38.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 7, 8</value>
+  </data>
+  <data name="panel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 44</value>
+  </data>
+  <data name="panel38.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel38.Name" xml:space="preserve">
+    <value>panel38</value>
+  </data>
+  <data name="&gt;&gt;panel38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel38.Parent" xml:space="preserve">
+    <value>panel35</value>
+  </data>
+  <data name="&gt;&gt;panel38.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel35.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 0</value>
+  </data>
+  <data name="panel35.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel35.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 7, 8</value>
+  </data>
+  <data name="panel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 142</value>
+  </data>
+  <data name="panel35.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel35.Name" xml:space="preserve">
+    <value>panel35</value>
+  </data>
+  <data name="&gt;&gt;panel35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel35.Parent" xml:space="preserve">
+    <value>panel30</value>
+  </data>
+  <data name="&gt;&gt;panel35.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_IsViewNotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_IsViewNotes.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_IsViewNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 0</value>
+  </data>
+  <data name="m_IsViewNotes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_IsViewNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 36</value>
+  </data>
+  <data name="m_IsViewNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_IsViewNotes.Text" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewNotes.Name" xml:space="preserve">
+    <value>m_IsViewNotes</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewNotes.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewNotes.Parent" xml:space="preserve">
+    <value>panel34</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewNotes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel34.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 96</value>
+  </data>
+  <data name="panel34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel34.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 0, 8</value>
+  </data>
+  <data name="panel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 44</value>
+  </data>
+  <data name="panel34.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel34.Name" xml:space="preserve">
+    <value>panel34</value>
+  </data>
+  <data name="&gt;&gt;panel34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel34.Parent" xml:space="preserve">
+    <value>panel31</value>
+  </data>
+  <data name="&gt;&gt;panel34.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_IsViewTinCream.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_IsViewTinCream.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_IsViewTinCream.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 0</value>
+  </data>
+  <data name="m_IsViewTinCream.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_IsViewTinCream.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 36</value>
+  </data>
+  <data name="m_IsViewTinCream.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_IsViewTinCream.Text" xml:space="preserve">
+    <value>悍锡参考线</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewTinCream.Name" xml:space="preserve">
+    <value>m_IsViewTinCream</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewTinCream.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewTinCream.Parent" xml:space="preserve">
+    <value>panel33</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewTinCream.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel33.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="panel33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel33.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 0, 8</value>
+  </data>
+  <data name="panel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 44</value>
+  </data>
+  <data name="panel33.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel33.Name" xml:space="preserve">
+    <value>panel33</value>
+  </data>
+  <data name="&gt;&gt;panel33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel33.Parent" xml:space="preserve">
+    <value>panel31</value>
+  </data>
+  <data name="&gt;&gt;panel33.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_IsViewSimulation.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_IsViewSimulation.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_IsViewSimulation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 0</value>
+  </data>
+  <data name="m_IsViewSimulation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_IsViewSimulation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 36</value>
+  </data>
+  <data name="m_IsViewSimulation.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_IsViewSimulation.Text" xml:space="preserve">
+    <value>水平垂直线</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewSimulation.Name" xml:space="preserve">
+    <value>m_IsViewSimulation</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewSimulation.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewSimulation.Parent" xml:space="preserve">
+    <value>panel32</value>
+  </data>
+  <data name="&gt;&gt;m_IsViewSimulation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel32.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="panel32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel32.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 0, 8</value>
+  </data>
+  <data name="panel32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 44</value>
+  </data>
+  <data name="panel32.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel32.Name" xml:space="preserve">
+    <value>panel32</value>
+  </data>
+  <data name="&gt;&gt;panel32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel32.Parent" xml:space="preserve">
+    <value>panel31</value>
+  </data>
+  <data name="&gt;&gt;panel32.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel31.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel31.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 7, 8</value>
+  </data>
+  <data name="panel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 142</value>
+  </data>
+  <data name="panel31.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel31.Name" xml:space="preserve">
+    <value>panel31</value>
+  </data>
+  <data name="&gt;&gt;panel31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel31.Parent" xml:space="preserve">
+    <value>panel30</value>
+  </data>
+  <data name="&gt;&gt;panel31.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel30.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 28</value>
+  </data>
+  <data name="panel30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 142</value>
+  </data>
+  <data name="panel30.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel30.Name" xml:space="preserve">
+    <value>panel30</value>
+  </data>
+  <data name="&gt;&gt;panel30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel30.Parent" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="&gt;&gt;panel30.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="groupControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupControl2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 164</value>
+  </data>
+  <data name="groupControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupControl2.Text" xml:space="preserve">
+    <value>对象显示控制</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="xtraTabPage2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="xtraTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 1033</value>
+  </data>
+  <data name="xtraTabPage2.Text" xml:space="preserve">
+    <value>图表分析</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Name" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Parent" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 1062</value>
+  </data>
+  <data name="xtraTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_strHaiqiLongdu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_strHaiqiLongdu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="m_strHaiqiLongdu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_strHaiqiLongdu.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strHaiqiLongdu.Properties.Mask.EditMask" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strHaiqiLongdu.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strHaiqiLongdu.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strHaiqiLongdu.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strHaiqiLongdu.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strHaiqiLongdu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="m_strHaiqiLongdu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_strHaiqiLongdu.Name" xml:space="preserve">
+    <value>m_strHaiqiLongdu</value>
+  </data>
+  <data name="&gt;&gt;m_strHaiqiLongdu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_strHaiqiLongdu.Parent" xml:space="preserve">
+    <value>panel28</value>
+  </data>
+  <data name="&gt;&gt;m_strHaiqiLongdu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel28.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 279</value>
+  </data>
+  <data name="panel28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel28.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 8, 4</value>
+  </data>
+  <data name="panel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="panel28.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;panel28.Name" xml:space="preserve">
+    <value>panel28</value>
+  </data>
+  <data name="&gt;&gt;panel28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel28.Parent" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel28.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_strProductLine.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_strProductLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="m_strProductLine.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_strProductLine.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strProductLine.Properties.Mask.EditMask" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strProductLine.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strProductLine.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strProductLine.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strProductLine.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strProductLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="m_strProductLine.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_strProductLine.Name" xml:space="preserve">
+    <value>m_strProductLine</value>
+  </data>
+  <data name="&gt;&gt;m_strProductLine.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_strProductLine.Parent" xml:space="preserve">
+    <value>panel27</value>
+  </data>
+  <data name="&gt;&gt;m_strProductLine.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel27.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 248</value>
+  </data>
+  <data name="panel27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel27.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 8, 4</value>
+  </data>
+  <data name="panel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="panel27.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;panel27.Name" xml:space="preserve">
+    <value>panel27</value>
+  </data>
+  <data name="&gt;&gt;panel27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel27.Parent" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel27.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_strTinCreamName.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_strTinCreamName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="m_strTinCreamName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_strTinCreamName.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strTinCreamName.Properties.Mask.EditMask" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strTinCreamName.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strTinCreamName.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strTinCreamName.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strTinCreamName.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strTinCreamName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="m_strTinCreamName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_strTinCreamName.Name" xml:space="preserve">
+    <value>m_strTinCreamName</value>
+  </data>
+  <data name="&gt;&gt;m_strTinCreamName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_strTinCreamName.Parent" xml:space="preserve">
+    <value>panel26</value>
+  </data>
+  <data name="&gt;&gt;m_strTinCreamName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel26.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 217</value>
+  </data>
+  <data name="panel26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel26.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 8, 4</value>
+  </data>
+  <data name="panel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="panel26.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panel26.Name" xml:space="preserve">
+    <value>panel26</value>
+  </data>
+  <data name="&gt;&gt;panel26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel26.Parent" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel26.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_strOperate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_strOperate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="m_strOperate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_strOperate.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strOperate.Properties.Mask.EditMask" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strOperate.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strOperate.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strOperate.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strOperate.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strOperate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="m_strOperate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_strOperate.Name" xml:space="preserve">
+    <value>m_strOperate</value>
+  </data>
+  <data name="&gt;&gt;m_strOperate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_strOperate.Parent" xml:space="preserve">
+    <value>panel25</value>
+  </data>
+  <data name="&gt;&gt;m_strOperate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel25.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 186</value>
+  </data>
+  <data name="panel25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel25.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 8, 4</value>
+  </data>
+  <data name="panel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="panel25.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;panel25.Name" xml:space="preserve">
+    <value>panel25</value>
+  </data>
+  <data name="&gt;&gt;panel25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel25.Parent" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel25.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_nSampleCount.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_nSampleCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="m_nSampleCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_nSampleCount.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nSampleCount.Properties.Mask.EditMask" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_nSampleCount.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nSampleCount.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nSampleCount.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nSampleCount.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_nSampleCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="m_nSampleCount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_nSampleCount.Name" xml:space="preserve">
+    <value>m_nSampleCount</value>
+  </data>
+  <data name="&gt;&gt;m_nSampleCount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_nSampleCount.Parent" xml:space="preserve">
+    <value>panel24</value>
+  </data>
+  <data name="&gt;&gt;m_nSampleCount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel24.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 155</value>
+  </data>
+  <data name="panel24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel24.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 8, 4</value>
+  </data>
+  <data name="panel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="panel24.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel24.Name" xml:space="preserve">
+    <value>panel24</value>
+  </data>
+  <data name="&gt;&gt;panel24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel24.Parent" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel24.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_nSampleRate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_nSampleRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="m_nSampleRate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_nSampleRate.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nSampleRate.Properties.Mask.EditMask" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_nSampleRate.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nSampleRate.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nSampleRate.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nSampleRate.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_nSampleRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="m_nSampleRate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_nSampleRate.Name" xml:space="preserve">
+    <value>m_nSampleRate</value>
+  </data>
+  <data name="&gt;&gt;m_nSampleRate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_nSampleRate.Parent" xml:space="preserve">
+    <value>panel23</value>
+  </data>
+  <data name="&gt;&gt;m_nSampleRate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel23.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 124</value>
+  </data>
+  <data name="panel23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel23.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 8, 4</value>
+  </data>
+  <data name="panel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="panel23.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel23.Name" xml:space="preserve">
+    <value>panel23</value>
+  </data>
+  <data name="&gt;&gt;panel23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel23.Parent" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel23.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_strDateTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_strDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="m_strDateTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_strDateTime.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strDateTime.Properties.Mask.EditMask" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strDateTime.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strDateTime.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strDateTime.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strDateTime.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="m_strDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_strDateTime.Name" xml:space="preserve">
+    <value>m_strDateTime</value>
+  </data>
+  <data name="&gt;&gt;m_strDateTime.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_strDateTime.Parent" xml:space="preserve">
+    <value>panel22</value>
+  </data>
+  <data name="&gt;&gt;m_strDateTime.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel22.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 93</value>
+  </data>
+  <data name="panel22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel22.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 8, 4</value>
+  </data>
+  <data name="panel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="panel22.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel22.Name" xml:space="preserve">
+    <value>panel22</value>
+  </data>
+  <data name="&gt;&gt;panel22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel22.Parent" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel22.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_nDataLength.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_nDataLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="m_nDataLength.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_nDataLength.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nDataLength.Properties.Mask.EditMask" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_nDataLength.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nDataLength.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nDataLength.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_nDataLength.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_nDataLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="m_nDataLength.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_nDataLength.Name" xml:space="preserve">
+    <value>m_nDataLength</value>
+  </data>
+  <data name="&gt;&gt;m_nDataLength.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_nDataLength.Parent" xml:space="preserve">
+    <value>panel21</value>
+  </data>
+  <data name="&gt;&gt;m_nDataLength.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel21.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 62</value>
+  </data>
+  <data name="panel21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel21.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 8, 4</value>
+  </data>
+  <data name="panel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="panel21.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel21.Name" xml:space="preserve">
+    <value>panel21</value>
+  </data>
+  <data name="&gt;&gt;panel21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel21.Parent" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel21.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_strCustomer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_strCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="m_strCustomer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="m_strCustomer.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strCustomer.Properties.Mask.EditMask" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strCustomer.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strCustomer.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strCustomer.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strCustomer.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="m_strCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_strCustomer.Name" xml:space="preserve">
+    <value>m_strCustomer</value>
+  </data>
+  <data name="&gt;&gt;m_strCustomer.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_strCustomer.Parent" xml:space="preserve">
+    <value>panel20</value>
+  </data>
+  <data name="&gt;&gt;m_strCustomer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="panel20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel20.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 8, 4</value>
+  </data>
+  <data name="panel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="panel20.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel20.Name" xml:space="preserve">
+    <value>panel20</value>
+  </data>
+  <data name="&gt;&gt;panel20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel20.Parent" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel20.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="m_strProductName.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_strProductName.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_strProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="m_strProductName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="m_strProductName.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strProductName.Properties.Mask.EditMask" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strProductName.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strProductName.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strProductName.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strProductName.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="m_strProductName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_strProductName.Name" xml:space="preserve">
+    <value>m_strProductName</value>
+  </data>
+  <data name="&gt;&gt;m_strProductName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_strProductName.Parent" xml:space="preserve">
+    <value>panel29</value>
+  </data>
+  <data name="&gt;&gt;m_strProductName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel29.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="panel29.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 8, 4</value>
+  </data>
+  <data name="panel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="panel29.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel29.Name" xml:space="preserve">
+    <value>panel29</value>
+  </data>
+  <data name="&gt;&gt;panel29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel29.Parent" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel29.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panel19.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 28</value>
+  </data>
+  <data name="panel19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 8, 4</value>
+  </data>
+  <data name="panel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 694</value>
+  </data>
+  <data name="panel19.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel19.Name" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel19.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;panel19.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl10.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="labelControl10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="labelControl10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelControl10.Text" xml:space="preserve">
+    <value>氧气浓度：</value>
+  </data>
+  <data name="&gt;&gt;labelControl10.Name" xml:space="preserve">
+    <value>labelControl10</value>
+  </data>
+  <data name="&gt;&gt;labelControl10.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl10.Parent" xml:space="preserve">
+    <value>panel18</value>
+  </data>
+  <data name="&gt;&gt;labelControl10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel18.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 279</value>
+  </data>
+  <data name="panel18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel18.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 8, 4, 8</value>
+  </data>
+  <data name="panel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="panel18.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;panel18.Name" xml:space="preserve">
+    <value>panel18</value>
+  </data>
+  <data name="&gt;&gt;panel18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel18.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel18.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl9.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="labelControl9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="labelControl9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelControl9.Text" xml:space="preserve">
+    <value>生产线别：</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.Name" xml:space="preserve">
+    <value>labelControl9</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.Parent" xml:space="preserve">
+    <value>panel17</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel17.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 248</value>
+  </data>
+  <data name="panel17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel17.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 8, 4, 8</value>
+  </data>
+  <data name="panel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="panel17.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;panel17.Name" xml:space="preserve">
+    <value>panel17</value>
+  </data>
+  <data name="&gt;&gt;panel17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel17.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel17.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelControl8.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="labelControl8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="labelControl8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelControl8.Text" xml:space="preserve">
+    <value>焊锡名称：</value>
+  </data>
+  <data name="&gt;&gt;labelControl8.Name" xml:space="preserve">
+    <value>labelControl8</value>
+  </data>
+  <data name="&gt;&gt;labelControl8.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl8.Parent" xml:space="preserve">
+    <value>panel16</value>
+  </data>
+  <data name="&gt;&gt;labelControl8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 217</value>
+  </data>
+  <data name="panel16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 8, 4, 8</value>
+  </data>
+  <data name="panel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="panel16.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panel16.Name" xml:space="preserve">
+    <value>panel16</value>
+  </data>
+  <data name="&gt;&gt;panel16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel16.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel16.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelControl7.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="labelControl7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="labelControl7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelControl7.Text" xml:space="preserve">
+    <value>测试人员：</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.Name" xml:space="preserve">
+    <value>labelControl7</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.Parent" xml:space="preserve">
+    <value>panel15</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 186</value>
+  </data>
+  <data name="panel15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 8, 4, 8</value>
+  </data>
+  <data name="panel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="panel15.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;panel15.Name" xml:space="preserve">
+    <value>panel15</value>
+  </data>
+  <data name="&gt;&gt;panel15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel15.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel15.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelControl6.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="labelControl6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="labelControl6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelControl6.Text" xml:space="preserve">
+    <value>采样通道：</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Name" xml:space="preserve">
+    <value>labelControl6</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Parent" xml:space="preserve">
+    <value>panel14</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 155</value>
+  </data>
+  <data name="panel14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 8, 4, 8</value>
+  </data>
+  <data name="panel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="panel14.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel14.Name" xml:space="preserve">
+    <value>panel14</value>
+  </data>
+  <data name="&gt;&gt;panel14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel14.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel14.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelControl5.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="labelControl5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="labelControl5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelControl5.Text" xml:space="preserve">
+    <value>采样周期：</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.Name" xml:space="preserve">
+    <value>labelControl5</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.Parent" xml:space="preserve">
+    <value>panel13</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 124</value>
+  </data>
+  <data name="panel13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 8, 4, 8</value>
+  </data>
+  <data name="panel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="panel13.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel13.Name" xml:space="preserve">
+    <value>panel13</value>
+  </data>
+  <data name="&gt;&gt;panel13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel13.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel13.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelControl4.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="labelControl4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="labelControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelControl4.Text" xml:space="preserve">
+    <value>采集时间：</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Name" xml:space="preserve">
+    <value>labelControl4</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 93</value>
+  </data>
+  <data name="panel12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 8, 4, 8</value>
+  </data>
+  <data name="panel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="panel12.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel12.Name" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;panel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel12.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel12.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelControl3.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="labelControl3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="labelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelControl3.Text" xml:space="preserve">
+    <value>记录时长：</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Name" xml:space="preserve">
+    <value>labelControl3</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Parent" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 62</value>
+  </data>
+  <data name="panel11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 8, 4, 8</value>
+  </data>
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="panel11.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel11.Name" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;panel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel11.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelControl2.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="labelControl2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="labelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>公司名称：</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Name" xml:space="preserve">
+    <value>labelControl2</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Parent" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="panel10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 8, 4, 8</value>
+  </data>
+  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="panel10.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelControl1.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v18.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="labelControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>产品名称：</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 8, 4, 8</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panel8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 28</value>
+  </data>
+  <data name="panel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 694</value>
+  </data>
+  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 724</value>
+  </data>
+  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>测试文件属性</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 306</value>
+  </data>
+  <data name="panel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 724</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>xtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnRefresh.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnRefresh.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnRefresh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="btnRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRefresh.Text" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 8</value>
+  </data>
+  <data name="panel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 14, 0</value>
+  </data>
+  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 36</value>
+  </data>
+  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAdvanced.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnAdvanced.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnAdvanced.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="btnAdvanced.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnAdvanced.Text" xml:space="preserve">
+    <value>高级删选</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.Name" xml:space="preserve">
+    <value>btnAdvanced</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 8</value>
+  </data>
+  <data name="panel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 14, 0</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 36</value>
+  </data>
+  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 254</value>
+  </data>
+  <data name="panel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 52</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>xtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_DataList.Appearance.FocusedCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>DimGray</value>
+  </data>
+  <data name="m_DataList.Appearance.FocusedCell.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="treeListColumn1.Caption" xml:space="preserve">
+    <value>档案清单</value>
+  </data>
+  <data name="treeListColumn1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="treeListColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="treeListColumn1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_DataList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_DataList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 8</value>
+  </data>
+  <metadata name="imageCollection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="imageCollection1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxOC4xLCBWZXJzaW9uPTE4LjEu
+        NS4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFFT
+        eXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRv
+        a2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAChEZXZFeHByZXNzLlV0aWxzLkltYWdlQ29sbGVjdGlvblN0
+        cmVhbWVyAgAAAAlJbWFnZVNpemUERGF0YQQHE1N5c3RlbS5EcmF3aW5nLlNpemUDAAAAAgIAAAAF/P//
+        /xNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAwAAABAAAAAQAAAACQUAAAAP
+        BQAAALgKAAACTgIAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAAFzUkdCAK7OHOkA
+        AAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA68AAAOvAGVvHJJAAAB40lEQVQ4T2PAB8rT0xWgTPJAbnD4
+        +VBn76NQLung7I7W/29vtv2HckkDsfaeJv//L/////ui/7EObh+gwsSDsvio///fz/7//w0Q/1vyP9re
+        QwYqRRgEmDjY/347F6IZhF/P+n96e9v/1dMqP03It75Un+yxpijKrz/DP7ScITc8XLkwIjhmalX8hTM7
+        av7//zLz////K///fzULYQAYz/v/7673s/+XGP7/v8rw/+gChb/ZgYG5YBtjXXw+vH009R+qBiT8bvn/
+        fw+iX/0/B9R8luH/oz2Cv+Lco5aDNcNArLPvmc0Lyv7//zofSfOs//8+7vr7/7LMB5jm/zcZ/kc4xmIP
+        1PSQsLLJ1an//39eCNH8dtH7f6cYfv6/ANR4HoifMPx30sv6BlWOHSS7h6T/+7n2279b7u/+n4ZqhGGg
+        /wsi/O9AlWIHQU5xOf/uM/yFa7oGxCDnQ/mH5yjhT1ghtolz/z8GKgb6998zhr/1yZ7/N07S+v3vMdBQ
+        oFe+H2HFb0CEU8z5/68Y/p9bLf3bzzL5f36wv0NOSFBNgFXy//4S+///3jD8CXXPDYMqxwSl0T5/S8P9
+        /mcFhp6DCsFBYUyMR6RT3P/C6FDcSTsrKOR/vr+/AZSLFWQGBGhCWAwMAKmFQcEJur3OAAAAAElFTkSu
+        QmCCOgIAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAAFzUkdCAK7OHOkAAAAEZ0FN
+        QQAAsY8L/GEFAAAACXBIWXMAAA68AAAOvAGVvHJJAAABz0lEQVQ4T2PAB8rT8xWgTPJAblD2+QCnkKNQ
+        LungTGv3/7fd7f+hXNJAhH2syf/dy/7/37j4f4x91AeoMPGgNDLr//9Fc/7/XwjE2xf/j7aPloFKEQYe
+        JgH2v5bOhWgG4Tkz/59p7/6/qqLx0wRrr0v17uFrivzi+rP9M8oZcsNTlfOCk2OmxOVfOFNT////8pn/
+        /+9dAdYENwCM5/3/F+z17D8vw///ggz/jyko/M0OTMsF2xjtEvvhzdwp/1A1IOGVy/7/S4l+9Z8DqBmI
+        H8sI/Qpyj1sO1gwD0c6xZzaV1fz/v3oeQuO8mf//7dv197+K9AeY5v+iDP+dHGOxB2pmSGrZlLSS//9X
+        LYRoXr74/T8Ohp9gZ4OwEsN/Pc+sb1Dl2EGce3L6v11rv/3zc3sHthGmGYoL/BPvQJViB04ucTn/5Bj+
+        wjUBAwzZoEOKavgTlq1T4tz/chBN/5QY/jZ4Rv7fqKX1G8QGGfCdkxW/Ac5OMef/qzH8P68s/dvKNfl/
+        vn+6Q05QWo21S/L/fnuP//+0GP64h+aGQZVjghLvmL+l/in/swLTz0GF4KAwJsvD2Snuf1FYOu6knR2U
+        DrQ1xQDKxQoyA5I1ISwGBgDPExtzV3RrCQAAAABJRU5ErkJgglsDAACJUE5HDQoaCgAAAA1JSERSAAAA
+        EAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACt0RVh0VGl0bGUAT3Bl
+        bjtGb2xkZXI7QmFycztSaWJib247U3RhbmRhcmQ7TG9hZPHDxGMAAALOSURBVDhPpZN7LJVhHMff6N5q
+        tfqjrTURf+hGrWQunY5JLkklImm1mjFk6b5aizWSormEQ8nlHKl2ElEicjnIOTg4pFq5nON6HA4yjuO8
+        35637GyZ9Uc922fPs+f9Pp/n9zzvHgrAf8E0HYLuDPNnembur00rqE+yKRVzbCBO+k1Dgg0qoq09SUan
+        Lp5NieL3UqI4FiWKZVHCGBZV+2DPLEECG/R01wydmBqToJ7jNBh+2ngdyS2cA6bKeVoBsYJWNYMeK4Bm
+        JA/0SA6mFG8hjLdH1T1LVN21hCDCAoI7FqgIt0BJ6O5yIligFdREWYOeFINW8kEPPQOt4EEj50IzWkTE
+        EkIL+U42mGyEZqIepbfMmJtbrBUwZnqiDvQgWdiXArUsFurOKKjbIzD1PQxTX0KgarsJ1afrULVeQ47/
+        JkawhrCUsIgqCzUHPV6N6e4EdL87i+ZUZzQ9ckZjshMakhzRkOiA+of2EMXZQRizD28umKIg2BT5502Q
+        d27bAFV8YxfGpS+hqLkESbonKfMbKbedVEX6ia9E3gbNDwk5khjTwyKoFdVQy8vQL+Qg28dYSBVe3oGe
+        6mhIUg+hoziMhAQYrb2KkZqLUAqCoawMwnB5IIY++GHovQ8URWcgLzyFj5G2SPIwDKFeB5mgKSsAleEs
+        KD/zMd7G+SMoL/DGQL4XBnKPoT/HDb38w+h97oJXflsRYLXWhOL7bkbJbQcIIp0wKc3FYJEv+kiwj38E
+        vS8Ooif7ALqfOkDG2w9Zpi2k6Wy0xlgg1d2ghVzicorrbQS+/3a08AKhrA0jQTvIMkgwjY2uJyx0PbZC
+        Z4olOpLN0cExQ3viTpRd2YL7jusjmd9JcVz1arnHDZF1wghZXkbgkTHP0xBcj43IZHBnMECGG+GoPtJc
+        9ZHsskF60nS1MRH8ejNLCCsIK+dg1SyYuWUE3VQXPYpB+yj+DVA/AVjcWk79JZvUAAAAAElFTkSuQmCC
+        xQIAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAA
+        sY8L/GEFAAAAFnRFWHRUaXRsZQBUZXh0O1BhZ2U7UmVwb3J0dmFhAAAAAk1JREFUOE9tk21P02AUhgno
+        GC/+Rj840cRo1ATlJRhfGMiUgRsMFEEQFL6YCMQYJWzD4aYhgvgH1CAbbGxj7dr1/fachwW31CZX2zTP
+        fZ2e87QNABroaIy8/h6bXPqBiaXdExZ3Qc8E48wrZgdjCzsIzW7FKdMkslVBEy+sPRyGTg6d/l0d2MST
+        uW8c8tCSU8GZ8Pw256AbNrQqFZ3QLKiaCbViQqlYsCwHw9NbHGquE4zObYuqInQatERIoXCZkOnesGwE
+        pr64BGeHZ76KV+XQ+EKKek0hPJ9CiHmZRGjuM0qqCd20MTCR5JC3ThCYYoGDMi3K5lUcVjnIqcgcKUgT
+        x4ohWrsfTrgEnoFIUgxIpkWjs5sYebGJ4EwCwekEHj8nphIoyoZory+4waGWOsHd8KYQlBRTVEvnFOxn
+        y4K9rIy9Qxm5kk6zsND9KOoW3BmJw7YdUSXw7BOxgaGncTycjGOQmYghe6xBphY7h9Y41ForaO4ORGGR
+        IC/potrvjIxfAgk/mbSEg6JGb2jghv+jS+DtHFyDSXucPdbhj8TgH4+inxlbx4OxKA1uHZm8hmLZwLV7
+        7znUVie42f+BBLaoclCoCDIFjajQTCrYF6goSAau9L3jUHutoOUqWQ3aYw5wpUyeggSHmD85jVBxRIO8
+        3LPqFrCVPxKJhiTRTnCvxbKJgqxTVR1HVDlHQ+QWO7qWXQKPr+tN9FLvKjp6V9DRswJf1woudi+fcHsZ
+        FwjfrbeC89cX+W+s+5AaWUK0Em1V2v/DuerVSzQCaPgLDJrLK4seZ94AAAAASUVORK5CYIIL
+</value>
+  </data>
+  <data name="m_DataList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 202</value>
+  </data>
+  <data name="m_DataList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_DataList.Name" xml:space="preserve">
+    <value>m_DataList</value>
+  </data>
+  <data name="&gt;&gt;m_DataList.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_DataList.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;m_DataList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 36</value>
+  </data>
+  <data name="panel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 7, 8</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 218</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>xtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_strFileNameFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_strFileNameFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 6</value>
+  </data>
+  <data name="m_strFileNameFilter.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strFileNameFilter.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
+    <value>Glyph</value>
+  </data>
+  <data name="m_strFileNameFilter.Properties.Buttons1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_strFileNameFilter.Properties.Buttons2" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="m_strFileNameFilter.Properties.Buttons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_strFileNameFilter.Properties.Buttons4" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_strFileNameFilter.Properties.Buttons5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="editorButtonImageOptions1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAddEVYdFRpdGxlAENsb3NlO0V4aXQ7QmFycztSaWJib247RgO56AAAAwpJREFUOE+Nk2lIVFEY
+        hqdMcytR0yDa3NNMs9RJ0zLX1BiLUvGHJUYQCeqPxCVtXAIzqdwhBiQxKTGJIEfNUbKoGJ3EJU1H0zKX
+        dOZq2jgj9ePtfNehf0EXHnjvOed7znfvuVcwc7tIwK7NDAPGlv/AUA+t38QQGHwuFL/6eqsAX4qIfEwV
+        iTcoZBTcxCRPHibzGeI8fBbnYjQ3p5vVklBgSBPaD+0bKPTwuU1PK7S9hBRaeQvPaE4WWK0RCYyUN7Kh
+        7WnB0uNKDGanQ2LvgY7zF/h7QhYbC4mdBwYy08A9KgdXX4aPGddJYEyCrSOZGVh795wtSEVdRDxkUgWe
+        XM1B6xkR2kQxfJa19KIuPB79GSlQ191Df2o6CUxIYNx/LQWa7mZI9rphUjkL1ZIWyikOjakFPKMsz6s1
+        mBibhWSPG1S1pZBfvkICUxKYvD5zlrVawVqNQ0/JfWi0v6Fe0WHsK4exLxwWf+iwuvaLn5OxR5vOSkZ7
+        SCQJzEhgKguNwvf7WfiWmYSO6Gi8LynHwrIOC6yT78sMToe3xWV4GRmJqbQEKBNC8MI/mATmJDCTBoZh
+        tigVExdPo/W4H9rFd1jLWsyp1zCr0jC0aMsrgdRPiLELQfh0LhDPjgaQYBsJzJ/7BmE65wpafbzQnJ6P
+        oXEVZhY14FZ14FbWMb2gwYByEU/TxJB6eWA40geN7kISbCfBtiZPP761BnsXqOfVmFGtYWl1HQPlVTwb
+        kp9QzanRYOeCgWBP1DsfJYEFCbY3uPpgPFkERUwoOhOTsM5x6CsphSzgGDoYlGmsM/ES5BGB6PN3Re2+
+        QySwJIHFQzsvfIoLwXC0EL3RJ9HkcgBdAb4YiTmBYVEguvx9+DF52HH0n/KE4ogDHuxyJYEVL5DsPoih
+        KLaT0BmDwYfZiwrGx3BfKISOUHg7YijUGyOiALazG+Se+yF334tqG6e/ArO7tk5vanY6o8bWBdW2zqiy
+        IZw2sHZEpZUjKngcUGHpgHJGsYXdW1bLHyP9lvRBkM1az45/YKOHMjtCgcEfpxkalin7Ah0AAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="m_strFileNameFilter.Properties.Buttons6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_strFileNameFilter.Properties.Buttons7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strFileNameFilter.Properties.Buttons8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strFileNameFilter.Properties.Buttons9" type="DevExpress.Utils.ToolTipAnchor, DevExpress.Utils.v18.1">
+    <value>Default</value>
+  </data>
+  <data name="m_strFileNameFilter.Properties.Mask.EditMask" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strFileNameFilter.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strFileNameFilter.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strFileNameFilter.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_strFileNameFilter.Properties.NullValuePrompt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="m_strFileNameFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="m_strFileNameFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_strFileNameFilter.Name" xml:space="preserve">
+    <value>m_strFileNameFilter</value>
+  </data>
+  <data name="&gt;&gt;m_strFileNameFilter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ButtonEdit, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;m_strFileNameFilter.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;m_strFileNameFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 6, 7, 8</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 36</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>xtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="xtraTabPage1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="xtraTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 1030</value>
+  </data>
+  <data name="xtraTabPage1.Text" xml:space="preserve">
+    <value>数据管理</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.Name" xml:space="preserve">
+    <value>xtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.Parent" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Name" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 1062</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 17</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>260, 1062</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>数据管理</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn1.Name" xml:space="preserve">
+    <value>treeListColumn1</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;imageCollection1.Name" xml:space="preserve">
+    <value>imageCollection1</value>
+  </data>
+  <data name="&gt;&gt;imageCollection1.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main_DataManagement</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

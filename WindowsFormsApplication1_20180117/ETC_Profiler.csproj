@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CEC1AD5F-E9F1-4D77-B486-358DC131F8CA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ETCProfiler</RootNamespace>
+    <AssemblyName>ETC Profiler</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\ETC\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ETCManager.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BD52B7E36DBED3DC6DB48E5F29BBB3326D2F22E1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ETC_Profiler_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoUpdater.NET, Version=1.5.1.0, Culture=neutral, PublicKeyToken=501435c91b35f4bc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autoupdater.NET.Official.1.5.1\lib\net40\AutoUpdater.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v18.1.Core, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v18.1.Core, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v18.1.Core, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v18.1.Core, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v18.1.Core, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v18.1.Core, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v18.1.Core, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v18.1.UI, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.1.UI, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.1.Wizard, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v18.1.Core, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v18.1.Extensions, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Nini, Version=1.1.0.0, Culture=neutral, PublicKeyToken=691faec150a7fa7b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Trove.Nini.1.1.0.0\lib\net20\Nini.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite-net, Version=1.5.231.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\sqlite-net-pcl.1.5.231\lib\netstandard1.1\SQLite-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_green, Version=1.1.11.121, Culture=neutral, PublicKeyToken=a84b7dcfb1391f7f, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.11\lib\net45\SQLitePCLRaw.batteries_green.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_v2, Version=1.1.11.121, Culture=neutral, PublicKeyToken=8226ea5df37bcae9, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.11\lib\net45\SQLitePCLRaw.batteries_v2.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.core, Version=1.1.11.121, Culture=neutral, PublicKeyToken=1488e028ca7ab535, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.core.1.1.11\lib\net45\SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.provider.e_sqlite3, Version=1.1.11.121, Culture=neutral, PublicKeyToken=9c301db686d0bd12, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.provider.e_sqlite3.net45.1.1.11\lib\net45\SQLitePCLRaw.provider.e_sqlite3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\..\..\CSDN下载资料\DockPanel_2.4_Bin\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfig.cs" />
+    <Compile Include="BoxConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoxConfirm.Designer.cs">
+      <DependentUpon>BoxConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoxMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoxMsg.Designer.cs">
+      <DependentUpon>BoxMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classes\CETAnalyseCondition.cs" />
+    <Compile Include="classes\CETChannel.cs" />
+    <Compile Include="classes\CETChartConstantLine.cs" />
+    <Compile Include="classes\CETChartNote.cs" />
+    <Compile Include="classes\CETChartSlope.cs" />
+    <Compile Include="classes\CETChartTemp.cs" />
+    <Compile Include="classes\CETChartTempZone.cs" />
+    <Compile Include="classes\CETCManagerApp.cs" />
+    <Compile Include="classes\CETColumn.cs" />
+    <Compile Include="classes\CETETC.cs" />
+    <Compile Include="classes\CETETCStage.cs" />
+    <Compile Include="classes\CETPageAnaly.cs" />
+    <Compile Include="classes\CETPageData.cs" />
+    <Compile Include="classes\CETPageHV.cs" />
+    <Compile Include="classes\CETPageTemplSetup.cs" />
+    <Compile Include="classes\CETPeakDifference.cs" />
+    <Compile Include="classes\CETProduct.cs" />
+    <Compile Include="classes\CETProductCtrl.cs" />
+    <Compile Include="classes\CETProjectInfo.cs" />
+    <Compile Include="classes\CETReflower.cs" />
+    <Compile Include="classes\CETReflowMaxMin.cs" />
+    <Compile Include="classes\CETReflowResult.cs" />
+    <Compile Include="classes\CETReflowRisedrops.cs" />
+    <Compile Include="classes\CETReflowSlope.cs" />
+    <Compile Include="classes\CETReflowTimeAtTemperature.cs" />
+    <Compile Include="classes\CETSamplePoint.cs" />
+    <Compile Include="classes\CETTinCream.cs" />
+    <Compile Include="classes\CETWZPageProduct.cs" />
+    <Compile Include="classes\CommData.cs" />
+    <Compile Include="classes\CppSQLite3DB.cs" />
+    <Compile Include="classes\CusCells.cs" />
+    <Compile Include="classes\CViewShowInfo.cs" />
+    <Compile Include="classes\DataGridViewEX.cs" />
+    <Compile Include="classes\Extension.cs" />
+    <Compile Include="classes\FormFields.cs" />
+    <Compile Include="classes\FormSerialize.cs" />
+    <Compile Include="classes\ReflowAreaData.cs" />
+    <Compile Include="classes\ShareFunc.cs" />
+    <Compile Include="classes\SPHEADER.cs" />
+    <Compile Include="classes\SSerInfo.cs" />
+    <Compile Include="classes\SuperTag.cs" />
+    <Compile Include="CustomBarAndDockingController\CustomBarAndDockingController.cs" />
+    <Compile Include="CustomBarAndDockingController\CustomBarPainter.cs" />
+    <Compile Include="CustomBarAndDockingController\CustomDrawLinkArgs.cs" />
+    <Compile Include="CustomBarAndDockingController\CustomSkinBarManagerPaintStyle.cs" />
+    <Compile Include="Enums\Statu.cs" />
+    <Compile Include="IDD_OPTION_ANALYSE1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_ANALYSE1.Designer.cs">
+      <DependentUpon>IDD_OPTION_ANALYSE1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Form.Designer.cs">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_ABOUTBOX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_ABOUTBOX.Designer.cs">
+      <DependentUpon>IDD_ABOUTBOX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_BaseForm.Designer.cs">
+      <DependentUpon>IDD_BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_CHART_INTERACTIVE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_CHART_INTERACTIVE.Designer.cs">
+      <DependentUpon>IDD_CHART_INTERACTIVE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_DATALIST_FILTER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_DATALIST_FILTER.Designer.cs">
+      <DependentUpon>IDD_DATALIST_FILTER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_DIALOG1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_DIALOG1.Designer.cs">
+      <DependentUpon>IDD_DIALOG1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_DIALOG2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_DIALOG2.Designer.cs">
+      <DependentUpon>IDD_DIALOG2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_HV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_HV.Designer.cs">
+      <DependentUpon>IDD_OPTION_HV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_NOTE_LIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_NOTE_LIST.Designer.cs">
+      <DependentUpon>IDD_NOTE_LIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_ANALYSE_CONDITION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_ANALYSE_CONDITION.Designer.cs">
+      <DependentUpon>IDD_OPTION_ANALYSE_CONDITION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_ANALYSE_ITEM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_ANALYSE_ITEM.Designer.cs">
+      <DependentUpon>IDD_OPTION_ANALYSE_ITEM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_CAPTURE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_CAPTURE.Designer.cs">
+      <DependentUpon>IDD_OPTION_CAPTURE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_CHART.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_CHART.Designer.cs">
+      <DependentUpon>IDD_OPTION_CHART.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_DOWNLOAD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_DOWNLOAD.Designer.cs">
+      <DependentUpon>IDD_OPTION_DOWNLOAD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_ETC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_ETC.Designer.cs">
+      <DependentUpon>IDD_OPTION_ETC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_ETC_SEARCH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_ETC_SEARCH.Designer.cs">
+      <DependentUpon>IDD_ETC_SEARCH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_MONITOR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_MONITOR.Designer.cs">
+      <DependentUpon>IDD_OPTION_MONITOR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_PRODUCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_PRODUCT.Designer.cs">
+      <DependentUpon>IDD_OPTION_PRODUCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_SETUP_PROJECTINFO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_SETUP_PROJECTINFO.Designer.cs">
+      <DependentUpon>IDD_SETUP_PROJECTINFO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_REFLOWER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_REFLOWER.Designer.cs">
+      <DependentUpon>IDD_OPTION_REFLOWER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_REPORT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_REPORT.Designer.cs">
+      <DependentUpon>IDD_OPTION_REPORT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_OPTION_TINCREAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_OPTION_TINCREAM.Designer.cs">
+      <DependentUpon>IDD_OPTION_TINCREAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_PAGE_PRINT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_PAGE_PRINT.Designer.cs">
+      <DependentUpon>IDD_PAGE_PRINT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_PAGE_PRINT1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_PAGE_PRINT1.Designer.cs">
+      <DependentUpon>IDD_PAGE_PRINT1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_PROJECTINFO_TITLE_EDIT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_PROJECTINFO_TITLE_EDIT.Designer.cs">
+      <DependentUpon>IDD_PROJECTINFO_TITLE_EDIT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_RATELINE_LIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_RATELINE_LIST.Designer.cs">
+      <DependentUpon>IDD_RATELINE_LIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_SETUP_0MAIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDD_SETUP_0MAIN.Designer.cs">
+      <DependentUpon>IDD_SETUP_0MAIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_DataAnasis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_DataAnasis.Designer.cs">
+      <DependentUpon>Main_DataAnasis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_DataManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_DataManagement.Designer.cs">
+      <DependentUpon>Main_DataManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_TempChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_TempChart.Designer.cs">
+      <DependentUpon>Main_TempChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiLanguage.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.cs">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BoxConfirm.resx">
+      <DependentUpon>BoxConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoxMsg.resx">
+      <DependentUpon>BoxMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_ANALYSE_CONDITION.zh-Hant.resx">
+      <DependentUpon>IDD_OPTION_ANALYSE_CONDITION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_ETC.zh-CHT.resx">
+      <DependentUpon>IDD_OPTION_ETC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_ETC.zh-Hant.resx">
+      <DependentUpon>IDD_OPTION_ETC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_ANALYSE1.resx">
+      <DependentUpon>IDD_OPTION_ANALYSE1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_REFLOWER.zh-Hant.resx">
+      <DependentUpon>IDD_OPTION_REFLOWER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataAnasis.zh-Hant.resx">
+      <DependentUpon>Main_DataAnasis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataAnasis.zh-TW.resx">
+      <DependentUpon>Main_DataAnasis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataManagement.zh-TW.resx">
+      <DependentUpon>Main_DataManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.en-US.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.zh-CHT.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.zh-CN.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_ABOUTBOX.en-US.resx">
+      <DependentUpon>IDD_ABOUTBOX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_ABOUTBOX.resx">
+      <DependentUpon>IDD_ABOUTBOX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_ABOUTBOX.zh-CHT.resx">
+      <DependentUpon>IDD_ABOUTBOX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_ABOUTBOX.zh-CN.resx">
+      <DependentUpon>IDD_ABOUTBOX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_BaseForm.resx">
+      <DependentUpon>IDD_BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_CHART_INTERACTIVE.resx">
+      <DependentUpon>IDD_CHART_INTERACTIVE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_DATALIST_FILTER.en-US.resx">
+      <DependentUpon>IDD_DATALIST_FILTER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_DATALIST_FILTER.resx">
+      <DependentUpon>IDD_DATALIST_FILTER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_DATALIST_FILTER.zh-Hant.resx">
+      <DependentUpon>IDD_DATALIST_FILTER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_DIALOG1.resx">
+      <DependentUpon>IDD_DIALOG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_DIALOG2.en-US.resx">
+      <DependentUpon>IDD_DIALOG2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_DIALOG2.resx">
+      <DependentUpon>IDD_DIALOG2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_DIALOG2.zh-Hant.resx">
+      <DependentUpon>IDD_DIALOG2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_ETC_SEARCH.en-US.resx">
+      <DependentUpon>IDD_ETC_SEARCH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_ETC_SEARCH.zh-Hant.resx">
+      <DependentUpon>IDD_ETC_SEARCH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_NOTE_LIST.en-US.resx">
+      <DependentUpon>IDD_NOTE_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_NOTE_LIST.zh-Hant.resx">
+      <DependentUpon>IDD_NOTE_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_HV.en-US.resx">
+      <DependentUpon>IDD_OPTION_HV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_HV.resx">
+      <DependentUpon>IDD_OPTION_HV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_HV.zh-CN.resx">
+      <DependentUpon>IDD_OPTION_HV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_NOTE_LIST.resx">
+      <DependentUpon>IDD_NOTE_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_NOTE_LIST.zh-CN.resx">
+      <DependentUpon>IDD_NOTE_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_ANALYSE_CONDITION.en-US.resx">
+      <DependentUpon>IDD_OPTION_ANALYSE_CONDITION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_ANALYSE_CONDITION.resx">
+      <DependentUpon>IDD_OPTION_ANALYSE_CONDITION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_ANALYSE_CONDITION.zh-CN.resx">
+      <DependentUpon>IDD_OPTION_ANALYSE_CONDITION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_ANALYSE_ITEM.resx">
+      <DependentUpon>IDD_OPTION_ANALYSE_ITEM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_CAPTURE.resx">
+      <DependentUpon>IDD_OPTION_CAPTURE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_CHART.resx">
+      <DependentUpon>IDD_OPTION_CHART.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_DOWNLOAD.resx">
+      <DependentUpon>IDD_OPTION_DOWNLOAD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_ETC.en-US.resx">
+      <DependentUpon>IDD_OPTION_ETC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_ETC.resx">
+      <DependentUpon>IDD_OPTION_ETC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_ETC.zh-CN.resx">
+      <DependentUpon>IDD_OPTION_ETC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_ETC_SEARCH.resx">
+      <DependentUpon>IDD_ETC_SEARCH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_MONITOR.resx">
+      <DependentUpon>IDD_OPTION_MONITOR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_PRODUCT.resx">
+      <DependentUpon>IDD_OPTION_PRODUCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_SETUP_PROJECTINFO.en-US.resx">
+      <DependentUpon>IDD_SETUP_PROJECTINFO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_SETUP_PROJECTINFO.resx">
+      <DependentUpon>IDD_SETUP_PROJECTINFO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_SETUP_PROJECTINFO.zh-CHT.resx">
+      <DependentUpon>IDD_SETUP_PROJECTINFO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_SETUP_PROJECTINFO.zh-CN.resx">
+      <DependentUpon>IDD_SETUP_PROJECTINFO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_REFLOWER.en-US.resx">
+      <DependentUpon>IDD_OPTION_REFLOWER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_REFLOWER.resx">
+      <DependentUpon>IDD_OPTION_REFLOWER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_REFLOWER.zh-CHT.resx">
+      <DependentUpon>IDD_OPTION_REFLOWER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_REFLOWER.zh-CN.resx">
+      <DependentUpon>IDD_OPTION_REFLOWER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_REPORT.resx">
+      <DependentUpon>IDD_OPTION_REPORT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_OPTION_TINCREAM.resx">
+      <DependentUpon>IDD_OPTION_TINCREAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iDD_PAGE_PRINT.en-US.resx">
+      <DependentUpon>IDD_PAGE_PRINT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_PAGE_PRINT.resx">
+      <DependentUpon>IDD_PAGE_PRINT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iDD_PAGE_PRINT.zh-CHT.resx">
+      <DependentUpon>IDD_PAGE_PRINT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iDD_PAGE_PRINT.zh-CN.resx">
+      <DependentUpon>IDD_PAGE_PRINT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_PAGE_PRINT1.resx">
+      <DependentUpon>IDD_PAGE_PRINT1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_PROJECTINFO_TITLE_EDIT.resx">
+      <DependentUpon>IDD_PROJECTINFO_TITLE_EDIT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_RATELINE_LIST.en-US.resx">
+      <DependentUpon>IDD_RATELINE_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_RATELINE_LIST.resx">
+      <DependentUpon>IDD_RATELINE_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_RATELINE_LIST.zh-CHT.resx">
+      <DependentUpon>IDD_RATELINE_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_RATELINE_LIST.zh-CN.resx">
+      <DependentUpon>IDD_RATELINE_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDD_SETUP_0MAIN.resx">
+      <DependentUpon>IDD_SETUP_0MAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataAnasis.en-US.resx">
+      <DependentUpon>Main_DataAnasis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataAnasis.resx">
+      <DependentUpon>Main_DataAnasis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataAnasis.zh-CHT.resx">
+      <DependentUpon>Main_DataAnasis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataAnasis.zh-CN.resx">
+      <DependentUpon>Main_DataAnasis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataManagement.en-US.resx">
+      <DependentUpon>Main_DataManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataManagement.resx">
+      <DependentUpon>Main_DataManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataManagement.zh-CHT.resx">
+      <DependentUpon>Main_DataManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataManagement.zh-CN.resx">
+      <DependentUpon>Main_DataManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_DataManagement.zh-Hant.resx">
+      <DependentUpon>Main_DataManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.zh-Hant.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_TempChart.en-US.resx">
+      <DependentUpon>Main_TempChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_TempChart.resx">
+      <DependentUpon>Main_TempChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_TempChart.zh-CHT.resx">
+      <DependentUpon>Main_TempChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_TempChart.zh-CN.resx">
+      <DependentUpon>Main_TempChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.en-US.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.zh-Hant.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ETCManager.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.linux.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.linux.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>此專案參考這部電腦上所缺少的 NuGet 套件。請啟用 NuGet 套件還原，以下載該套件。如需詳細資訊，請參閱 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的檔案是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.linux.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.linux.targets'))" />
+    <Error Condition="!Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.osx.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.osx.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCLRaw.lib.e_sqlite3.osx.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.osx.targets'))" />
+    <Error Condition="!Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.v110_xp.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.v110_xp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCLRaw.lib.e_sqlite3.v110_xp.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.v110_xp.targets'))" />
+  </Target>
+  <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.osx.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.osx.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.osx.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.osx.targets')" />
+  <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.v110_xp.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.v110_xp.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.v110_xp.1.1.11\build\net35\SQLitePCLRaw.lib.e_sqlite3.v110_xp.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
